@@ -1,1 +1,43 @@
-
+{
+    "config": {
+        "abort": {
+            "already_configured": "Das Konto ist bereits konfiguriert",
+            "already_in_progress": "Der Konfigurationsablauf ist bereits im Gange",
+            "authorize_url_timeout": "Zeitüberschreitung beim Generieren der Autorisierungs-URL.",
+            "missing_configuration": "Die Komponente ist nicht konfiguriert. Bitte folgen Sie der Dokumentation.",
+            "no_url_available": "Keine URL verfügbar. Weitere Informationen zu diesem Fehler, [check the help section]({docs_url})",
+            "oauth_error": "Ungültige Tokendaten empfangen.",
+            "oauth_failed": "Fehler beim Abrufen des Zugriffstokens.",
+            "oauth_timeout": "Zeitüberschreitung beim Auflösen des OAuth-Token.",
+            "oauth_unauthorized": "OAuth-Autorisierungsfehler beim Abrufen des Zugriffstokens.",
+            "reauth_successful": "Die erneute Authentifizierung war erfolgreich"
+        },
+        "create_entry": {
+            "default": "Erfolgreich authentifiziert"
+        },
+        "step": {
+            "pick_implementation": {
+                "title": "Authentifizierungsmethode auswählen"
+            },
+            "reauth_confirm": {
+                "description": "Die Yolink-Integration muss Ihr Konto erneut authentifizieren",
+                "title": "Authentifizierung abgelaufen für {name}"
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "battery": {
+                "name": "Batterie"
+            },
+            "record": {
+                "name": "Aufnahme"
+            }
+        },
+        "switch": {
+            "switch": {
+                "name": "Schalter"
+            }
+        }
+    }
+}
